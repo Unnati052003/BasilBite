@@ -33,7 +33,6 @@
   margin-bottom: 40px;
 }
 
-/* ORDER BUTTON */
 .headerContainer button {
   border: none;
   border-radius: 8px;
@@ -41,9 +40,8 @@
   background-color: #121619;
   color: white;
   text-decoration: none;
-  margin-top: 10px;          /* ✅ Added: extra gap button ke upar */
+  margin-top: 10px;        
 
-  /* 👇 size */
   padding: 14px 32px;
   font-size: 22px;
   font-weight: 600;
@@ -55,7 +53,6 @@
   transform: scale(1.05);
 }
 
-/* RESPONSIVE */
 @media only screen and (max-width: 650px) {
   .home {
     justify-content: center;
@@ -89,7 +86,7 @@
     font-size: 40px;
     font-weight: lighter;
     color: black;
-    margin-bottom: 30px;   /* ✅ Responsive gap */
+    margin-bottom: 30px;   
   }
 
   .headerContainer button {
@@ -100,13 +97,13 @@
     color: white;
     text-decoration: none;
 
-    /* 👇 size bada */
+
     padding: 24px 60px;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 1px;
     transition: all 0.3s ease-in-out;
-    margin-top: 50px;   /* ✅ Responsive me bhi gap */
+    margin-top: 50px;   
   }
 
   .headerContainer button:hover {

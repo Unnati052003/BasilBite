@@ -30,8 +30,8 @@
   color: white;
   text-decoration: none;
   margin: 20px;
-  font-size: 25px;   /* 🔥 link size bada */
-  font-weight: 600;  /* 🔥 thoda bold */
+  font-size: 25px;   
+  font-weight: 600;  
 }
 
 .navbar .rightSide button {
